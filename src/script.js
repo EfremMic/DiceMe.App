@@ -50,7 +50,7 @@ btnRoll.addEventListener('click', function () {
     console.log(randomDiceRoll);
     //2) Display dice
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${randomDiceRoll}.png`;
+    diceEl.src = `image/dice-${randomDiceRoll}.png`;
     //3) Check for rolled 1: if true, switch to next player
     if (randomDiceRoll !== 1) {
       //Add dice to current score
